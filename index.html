@@ -19,24 +19,21 @@
     .grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
     .card { background: #f1f5f9; padding: 1.5rem; border-radius: 12px; text-align: center; }
     .portfolio { padding: 3rem 1rem; background: #f8fafc; }
-    .portfolio img { width: 100%; border-radius: 12px; margin: 1rem 0; }
+    .portfolio img { width: 100%; max-width: 600px; border-radius: 12px; margin: 1rem auto; display: block; }
     footer { background: var(--black); color: white; text-align: center; padding: 2rem; }
     @media (max-width: 768px) { .hero h1 { font-size: 2rem; } }
   </style>
 </head>
 <body>
-
   <header>
     <div class="logo"><img src="logo.png" alt="PointMedia" style="max-width:180px; height:auto;"></div>
     <p>Digital Growth for Nador Businesses</p>
   </header>
-
   <section class="hero">
     <h1>We Help Furniture Stores Win Online</h1>
     <p>Websites • Social Media • Ads • Google Maps</p>
-   <a href="https://wa.me/212707986789" class="btn" target="_blank">WhatsApp Now</a>
+    <a href="https://wa.me/212707986789" class="btn" target="_blank">WhatsApp Now</a>
   </section>
-
   <section class="services">
     <h2 style="text-align:center; margin-bottom:2rem;">Our Services</h2>
     <div class="grid">
@@ -46,27 +43,18 @@
       <div class="card"><h3>Google Maps</h3><p>#1 in local search</p><strong>500 DH</strong></div>
     </div>
   </section>
-
-   <section class="portfolio">
-  <h2 style="text-align:center; margin-bottom:2rem;">Our Work</h2>
-
-  <!-- Project 1: Furniture Website -->
-  <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Furniture Website">
-  <p><strong>Nador Furniture Co.</strong> – 3-page site with catalog + WhatsApp button → +40% calls in 30 days</p>
-
-  <!-- Project 2: Instagram Growth -->
-  <img src="https://images.pexels.com/photos/5847574/pexels-photo-5847574.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Instagram Reels">
-  <p><strong>Café El Bahia</strong> – 12 posts + 4 reels/month → 2,500 followers in 60 days</p>
-
-  <!-- Project 3: Google Maps #1 -->
-  <img src="https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Google Maps">
-  <p><strong>Mobilia Nador</strong> – Optimized Google Maps → #1 in “furniture Nador” search</p>
-</section>
-
+  <section class="portfolio">
+    <h2 style="text-align:center; margin-bottom:2rem;">Our Work</h2>
+    <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Furniture Website">
+    <p><strong>Nador Furniture Co.</strong> – 3-page site + WhatsApp → +40% calls</p>
+    <img src="https://images.pexels.com/photos/5847574/pexels-photo-5847574.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Instagram Growth">
+    <p><strong>Café El Bahia</strong> – 12 posts + 4 reels → 2,500 followers</p>
+    <img src="https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Google Maps">
+    <p><strong>Mobilia Nador</strong> – Google Maps #1 in “furniture Nador”</p>
+  </section>
   <footer id="contact">
-    <p>POINTMEDIA.agency | Nador, Morocco</p>
-    <p>WhatsApp: +212 707986789 | Live Now</p>
+    <p>PointMedia.agency | Nador, Morocco</p>
+    <p>WhatsApp: +212 707 986 789 | Live Now</p>
   </footer>
-
 </body>
 </html>
